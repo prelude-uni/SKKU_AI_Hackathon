@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary": "#006c49", "on-tertiary-fixed-variant": "#2f2ebe", "secondary-fixed": "#6ffbbe", "on-tertiary-fixed": "#07006c", "tertiary-fixed-dim": "#c0c1ff", "error-container": "#ffdad6", "on-secondary-container": "#00714d", "surface-dim": "#e2d8d2", "inverse-on-surface": "#f9efe8", "primary-fixed": "#ffdcc3", "on-error": "#ffffff", "surface-container-highest": "#eae1da", "outline-variant": "#dbc2b0", "on-primary-container": "#fffbff", "on-secondary-fixed": "#002113", "surface-container-low": "#fcf2eb", "primary-container": "#b15f00", "on-primary": "#ffffff", "surface-bright": "#fff8f5", "on-primary-fixed-variant": "#6e3900", "surface-container-lowest": "#ffffff", "on-secondary": "#ffffff", "tertiary-fixed": "#e1e0ff", "on-background": "#1f1b17", "inverse-surface": "#342f2b", "secondary-fixed-dim": "#4edea3", "background": "#fff8f5", "inverse-primary": "#ffb77d", "primary": "#8d4b00", "surface-tint": "#904d00", "outline": "#887364", "surface": "#fff8f5", "on-surface": "#1f1b17", "on-error-container": "#93000a", "error": "#ba1a1a", "on-tertiary-container": "#fffbff", "on-surface-variant": "#554336", "on-primary-fixed": "#2f1500", "on-secondary-fixed-variant": "#005236", "primary-fixed-dim": "#ffb77d", "surface-container-high": "#f0e6e0", "surface-container": "#f6ece6", "on-tertiary": "#ffffff", "tertiary": "#4648d4", "secondary-container": "#6cf8bb", "tertiary-container": "#6063ee", "surface-variant": "#eae1da" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xs": "0.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "margin-desktop": "2rem", "gutter-desktop": "1.5rem", "margin": "1rem", "space-xl": "2.5rem", "space-md": "1rem", "gutter": "1rem" }, "fontFamily": { "headline-xl-mobile": ["Plus Jakarta Sans"], "label-sm": ["Inter"], "body-lg": ["Inter"], "headline-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-sm": ["Inter"], "label-md": ["Inter"], "code-sm": ["Space Mono"], "headline-md": ["Plus Jakarta Sans"] }, "fontSize": { "headline-xl-mobile": ["26px", {"lineHeight": "34px", "fontWeight": "700"}], "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}], "body-lg": ["16px", {"lineHeight": "26px", "fontWeight": "400"}], "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "headline-sm": ["16px", {"lineHeight": "24px", "fontWeight": "600"}], "headline-xl": ["32px", {"lineHeight": "40px", "fontWeight": "700"}], "body-md": ["14px", {"lineHeight": "22px", "fontWeight": "400"}], "body-sm": ["13px", {"lineHeight": "19px", "fontWeight": "400"}], "label-md": ["13px", {"lineHeight": "18px", "fontWeight": "500"}], "code-sm": ["12px", {"lineHeight": "18px", "fontWeight": "400"}], "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Brand logo. - Primary color: #d97706
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WYjFOz9RDZg9I5JNwIl4nYEdQkD5IhzIMFX7WgGOpoeVMG_XQVlBLlK0yd3LgQ-uJ9zV1-M7JJKeFdwLPIOf6k_EJkxGDDujYXfSVG6MAZUilrzDGQRt5Pr5cMxby11d_2CIBJ7qD-H5dTsc68tuguGt0PVSXHVwcSbWjDoabcmPAUGryTLE9EOVtRatQ4vuhYxqV0x5yIVHzFZmUxvOSV5wuaz7hP6NyaK1HGHx_gBgryj0FlRmJYbg"/><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary">도토리</span><span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">AI 팀플 중재</span></div><div class="h-4 w-[1px] bg-outline-variant mx-space-xs hidden md:block"></div><button class="hidden md:flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-lg text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">school</span><span>경영정보시스템 3조 팀플</span><span class="px-space-xs py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">중간발표 D-4</span><span class="material-symbols-outlined text-[16px] text-on-surface-variant">expand_more</span></button></div><div class="flex items-center gap-space-md"><button aria-label="Notifications" class="relative p-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-error"></span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="hidden sm:flex flex-col text-left"><span class="font-headline-sm text-headline-sm text-on-surface leading-none">이준혁</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-none mt-1">컴공 21 · 조원</span></div></div></div></div></header><aside class="fixed left-0 top-16 bottom-0 w-64 bg-surface-container-low z-40 overflow-y-auto flex flex-col justify-between p-space-md"><div class="flex flex-col gap-space-md"><div class="p-space-sm rounded-xl bg-surface-container-lowest shadow-[0_1px_4px_rgba(0,0,0,0.03)]"><div class="flex items-center justify-between mb-1"><span class="font-headline-sm text-headline-sm text-on-surface">경영학원론 4조</span><span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">조율 활성화</span></div><p class="font-body-sm text-body-sm text-on-surface-variant truncate">ESG 경영전략 분석 보고서</p><p class="font-label-sm text-label-sm text-outline mt-1">4명 참여 중 · 팀장 김민지</p></div><div><span class="px-space-sm font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-1">Workspace</span><nav class="flex flex-col gap-0.5" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-lg"><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md transition-colors" data-path="dashboard" href="#"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px]">space_dashboard</span><span>팀플 대시보드</span></div></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md transition-colors" data-path="checklist" href="#"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px]">checklist</span><span>체크리스트 & 과업</span></div><span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">5/12</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md transition-colors" data-path="ai-mediation" href="#"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary">forum</span><span>AI 소통 중재방</span></div><span class="w-2 h-2 rounded-full bg-error"></span></a><a aria-current="page" class="flex items-center justify-between px-space-sm py-2 transition-colors bg-primary-container text-on-primary-container font-bold rounded-lg" data-path="acorn-vault" href="#"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary">savings</span><span>도토리 주머니 & 기록</span></div><span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">4개</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-label-md text-label-md transition-colors" data-path="meeting-notes" href="#"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px]">menu_book</span><span>회의록 및 과제 가이드</span></div></a></nav></div><div><span class="px-space-sm font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-1">팀원 현황 & 도토리</span><div class="flex flex-col gap-1"><div class="flex items-center justify-between px-space-sm py-1.5 rounded-lg hover:bg-surface-container-highest transition-colors"><div class="flex items-center gap-space-xs"><span class="font-body-sm text-body-sm text-on-surface">김민지 (조장)</span><span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">지원가능</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">🌰 1</span></div><div class="flex items-center justify-between px-space-sm py-1.5 rounded-lg bg-surface-container transition-colors"><div class="flex items-center gap-space-xs"><span class="font-body-sm text-body-sm text-primary font-semibold">이준혁 (나)</span><span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">중재중</span></div><span class="font-label-sm text-label-sm text-primary font-bold">🌰 4</span></div><div class="flex items-center justify-between px-space-sm py-1.5 rounded-lg hover:bg-surface-container-highest transition-colors"><div class="flex items-center gap-space-xs"><span class="font-body-sm text-body-sm text-on-surface">박서연 (조원)</span><span class="px-space-xs py-0.5 rounded-full bg-surface-variant text-on-surface-variant font-label-sm text-label-sm">여유</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">🌰 2</span></div><div class="flex items-center justify-between px-space-sm py-1.5 rounded-lg hover:bg-surface-container-highest transition-colors"><div class="flex items-center gap-space-xs"><span class="font-body-sm text-body-sm text-on-surface">최현우 (조원)</span><span class="px-space-xs py-0.5 rounded-full bg-surface-variant text-on-surface-variant font-label-sm text-label-sm">자료조사</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">🌰 3</span></div></div></div></div><div class="p-space-sm rounded-xl bg-surface-container-highest flex flex-col gap-1"><div class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[16px]">auto_awesome</span><span class="font-label-sm text-label-sm font-semibold">AI 중재 팁</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-tight">마감 3일 전 의견이 다를 땐 중재방에 공유 질문을 남겨보세요.</p></div></aside><div class="pl-64"><main class="w-full min-h-screen pt-16 bg-surface px-gutter-desktop py-space-lg"><div class="flex flex-col w-full max-w-4xl mx-auto space-y-space-lg pb-space-xl">
+<!-- Back Link & Header Area -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex items-center justify-between">
+<a class="inline-flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md group" data-path="dashboard" href="#">
+<span class="material-symbols-outlined text-[18px] group-hover:-translate-x-0.5 transition-transform">arrow_back</span>
+<span>대시보드로 돌아가기</span>
+</a>
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+        경영학원론 4조 · ESG 경영전략
+      </span>
+</div>
+<div class="flex flex-col gap-1 mt-1">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">도토리 주머니 & 기록</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        주고받은 도움 내역과 현재 보유한 도토리를 투명하고 편안하게 확인하세요.
+      </p>
+</div>
+</div>
+<!-- My Acorn Pocket Card (Hero Element) -->
+<section class="relative overflow-hidden rounded-2xl bg-surface-container-lowest p-space-lg shadow-sm">
+<!-- Ambient Warm Tone Glow Behind Graphic -->
+<div class="absolute -right-8 -top-8 w-60 h-60 rounded-full bg-primary-fixed/30 blur-2xl pointer-events-none"></div>
+<div class="absolute -left-6 -bottom-6 w-44 h-44 rounded-full bg-surface-container-low/60 blur-xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-space-lg">
+<!-- Left: Acorn Balance & Visual Representation -->
+<div class="flex items-start gap-space-md">
+<!-- Acorn Icon Badge -->
+<div class="w-16 h-16 rounded-2xl bg-surface-container-low flex items-center justify-center text-primary shadow-sm flex-shrink-0">
+<span aria-label="도토리 주머니" class="text-3xl select-none" role="img">🌰</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface-variant tracking-wide uppercase">내 도토리 주머니</span>
+<div class="flex items-baseline gap-space-sm">
+<span class="font-headline-xl text-[44px] leading-none text-primary font-bold tracking-tight">4개</span>
+<div class="flex items-center gap-1 px-space-xs py-1 rounded-lg bg-surface-container-low">
+<span class="text-base select-none" title="보유 도토리 1">🌰</span>
+<span class="text-base select-none" title="보유 도토리 2">🌰</span>
+<span class="text-base select-none" title="보유 도토리 3">🌰</span>
+<span class="text-base select-none" title="보유 도토리 4">🌰</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            도움을 받으면 쌓이고, 다른 팀원을 도우면 자연스럽게 줄어들어요.
+          </p>
+</div>
+</div>
+<!-- Right: Sub-summary metric (No ranking, neutral state) -->
+<div class="flex items-center gap-space-md self-start md:self-auto bg-surface-container-low/70 px-space-md py-3 rounded-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">최근 협업 상태</span>
+<span class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-1.5 mt-0.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">handshake</span>
+            상호 지원 원활
+          </span>
+</div>
+<div class="h-8 w-[1px] bg-surface-container-highest"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">누적 교환 건수</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-0.5">총 4건 완료</span>
+</div>
+</div>
+</div>
+<!-- Helpful Rule Tooltip / Hint Box -->
+<div class="relative z-10 mt-space-md pt-space-md flex items-start gap-space-sm bg-surface-container rounded-xl p-space-md text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px] flex-shrink-0 mt-0.5">tips_and_updates</span>
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold">도토리 배분 원칙</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          AI는 도움 후보를 찾을 때 각자의 현재 업무량과 가능한 역할을 먼저 살피고, 그중 도토리가 많은 사람을 우선 검토해 공평한 균형을 맞춰요. (도움 완료 시점에 기록에 자동 반영됩니다)
+        </p>
+</div>
+</div>
+</section>
+<!-- Help History Section -->
+<section class="flex flex-col space-y-space-md">
+<!-- Section Top Bar -->
+<div class="flex items-center justify-between px-space-xs">
+<div class="flex items-center gap-space-xs">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">도움 기록</h2>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">총 4건</span>
+</div>
+<div class="flex items-center gap-space-sm text-outline font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">swap_vert</span>
+          최신순 정렬
+        </span>
+<span class="text-surface-container-highest">·</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">check_circle</span>
+          완료된 도움만 표시됩니다
+        </span>
+</div>
+</div>
+<!-- History Cards Stack -->
+<div class="flex flex-col space-y-space-sm">
+<!-- Record Item 1: Expanded Detail State -->
+<article class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all">
+<!-- Main Line -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm pb-space-sm">
+<div class="flex items-start md:items-center gap-space-sm flex-wrap">
+<span class="font-code-sm text-code-sm text-outline">2024.04.03</span>
+<!-- Badge: 도움받음 +1 -->
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-semibold">
+<span>도움받음 +1</span>
+<span class="text-xs">🌰</span>
+</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              상대: 김민지 (조장)
+            </span>
+</div>
+<div class="flex items-center gap-space-xs text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+<span>중재 합의 완료</span>
+</div>
+</div>
+<!-- Task & Summary Statement -->
+<div class="flex flex-col gap-1.5 pt-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface hover:text-primary cursor-pointer transition-colors">
+              [자료조사] 경쟁 서비스 자료조사 및 비교표 정리
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            “민지가 경쟁 서비스 핵심 3사 자료 선정을 도와줬어요.”
+          </p>
+</div>
+<!-- Expanded AI Accordion Area -->
+<div class="mt-space-md p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 text-tertiary">
+<span class="material-symbols-outlined text-[18px]">psychology</span>
+<span class="font-label-md text-label-md font-semibold">AI 소통 중재 요약</span>
+</div>
+<span class="font-code-sm text-code-sm text-outline">2024년 4월 3일 16:30 양측 완료 확인</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface bg-surface-container-lowest p-space-sm rounded-lg leading-relaxed">
+            경쟁사 3곳에 대한 시장 점유율 데이터 보완 및 분석 템플릿 정리 완료. 기존 준혁 담당 분량 중 해외 레퍼런스 수집 항목(25%)을 민지가 인수하여 마감일 내 상호 제출을 성공적으로 달성했습니다.
+          </p>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-space-md">
+<a class="inline-flex items-center gap-1 text-primary hover:text-primary-container font-label-md text-label-md font-medium transition-colors" href="#">
+<span>관련 과업 보기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+<a class="inline-flex items-center gap-1 text-tertiary hover:text-on-tertiary-fixed-variant font-label-md text-label-md font-medium transition-colors" href="#">
+<span>협의안 원문 보기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<span class="font-label-sm text-label-sm text-outline">도토리 주머니 +1 반영됨</span>
+</div>
+</div>
+</article>
+<!-- Record Item 2: Collapsed Item (도움제공 -1) -->
+<article class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-start md:items-center gap-space-sm flex-wrap">
+<span class="font-code-sm text-code-sm text-outline">2024.04.01</span>
+<!-- Badge: 도움제공 -1 (Soft Teal/Slate Neutral tone) -->
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span>도움제공 −1</span>
+<span class="text-xs">🌰</span>
+</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              상대: 백지훈 (조원)
+            </span>
+</div>
+<button class="inline-flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors self-end md:self-auto py-1" type="button">
+<span>상세 보기</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</button>
+</div>
+<div class="flex flex-col gap-1 mt-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface hover:text-primary cursor-pointer transition-colors">
+            [발표준비] 중간 보고서 발표 초안 작성 및 슬라이드 구조화
+          </span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            “지훈의 발표 초안을 함께 검토하고 피드백하여 흐름을 정돈했어요.”
+          </p>
+</div>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs text-outline font-label-sm text-label-sm">
+<div class="flex items-center gap-space-md">
+<a class="hover:text-primary transition-colors" href="#">관련 과업 보기</a>
+<span>·</span>
+<a class="hover:text-primary transition-colors" href="#">협의안 보기</a>
+</div>
+<span>2024.04.01 19:10 완료</span>
+</div>
+</article>
+<!-- Record Item 3: Collapsed Item (도움받음 +1) -->
+<article class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-start md:items-center gap-space-sm flex-wrap">
+<span class="font-code-sm text-code-sm text-outline">2024.03.28</span>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-semibold">
+<span>도움받음 +1</span>
+<span class="text-xs">🌰</span>
+</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              상대: 정수빈 (조원)
+            </span>
+</div>
+<button class="inline-flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors self-end md:self-auto py-1" type="button">
+<span>상세 보기</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</button>
+</div>
+<div class="flex flex-col gap-1 mt-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface hover:text-primary cursor-pointer transition-colors">
+            [현장조사] 대학생 타겟 사용자 심층 인터뷰 내용 분석
+          </span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            “수빈이 음성 녹취 3회차 텍스트 변환 및 인터뷰 내용을 함께 정리해줬어요.”
+          </p>
+</div>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs text-outline font-label-sm text-label-sm">
+<div class="flex items-center gap-space-md">
+<a class="hover:text-primary transition-colors" href="#">관련 과업 보기</a>
+<span>·</span>
+<a class="hover:text-primary transition-colors" href="#">협의안 보기</a>
+</div>
+<span>2024.03.28 21:40 완료</span>
+</div>
+</article>
+<!-- Record Item 4: Collapsed Item (도움받음 +1) -->
+<article class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-start md:items-center gap-space-sm flex-wrap">
+<span class="font-code-sm text-code-sm text-outline">2024.03.22</span>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-semibold">
+<span>도움받음 +1</span>
+<span class="text-xs">🌰</span>
+</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              상대: 최현우 (조원)
+            </span>
+</div>
+<button class="inline-flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors self-end md:self-auto py-1" type="button">
+<span>상세 보기</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</button>
+</div>
+<div class="flex flex-col gap-1 mt-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface hover:text-primary cursor-pointer transition-colors">
+            [시장분석] 모빌리티 플랫폼 비즈니스 모델(BM) 비교 분석
+          </span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            “현우가 플랫폼 BM 비교 분석에 필요한 그래프 및 수치 자료를 보완해줬어요.”
+          </p>
+</div>
+<div class="flex items-center justify-between mt-space-sm pt-space-xs text-outline font-label-sm text-label-sm">
+<div class="flex items-center gap-space-md">
+<a class="hover:text-primary transition-colors" href="#">관련 과업 보기</a>
+<span>·</span>
+<a class="hover:text-primary transition-colors" href="#">협의안 보기</a>
+</div>
+<span>2024.03.22 14:15 완료</span>
+</div>
+</article>
+</div>
+<!-- Calculation Footnote (Subtle reassurance card) -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm text-on-surface-variant font-label-sm text-label-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary">account_balance_wallet</span>
+<span>도토리 누적 산출: 기본 배정(2) + 도움받음(3) − 도움제공(1) = <strong>현재 4개 보유</strong></span>
+</div>
+<div class="text-outline">
+        상대방 완료 승인 시 실시간 동기화
+      </div>
+</div>
+</section>
+</div>
+<script>
+  // Interactive micro-interaction for expandable records
+  document.querySelectorAll('article button').forEach(button => {
+    button.addEventListener('click', (e) => {
+      const card = e.currentTarget.closest('article');
+      const isExpanded = card.querySelector('.expanded-content');
+      
+      if (isExpanded) {
+        isExpanded.remove();
+        button.innerHTML = '<span>상세 보기</span><span class="material-symbols-outlined text-[18px]">expand_more</span>';
+      } else {
+        const detailDiv = document.createElement('div');
+        detailDiv.className = 'expanded-content mt-space-md p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm';
+        detailDiv.innerHTML = `
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1.5 text-primary">
+              <span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+              <span class="font-label-md text-label-md font-semibold">도움 조율 기록</span>
+            </div>
+            <span class="font-code-sm text-code-sm text-outline">과업 수행 완료 확인됨</span>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-surface bg-surface-container-lowest p-space-sm rounded-lg leading-relaxed">
+            해당 과업의 세부 범위 조정안이 양측 조원에 의해 승인되었으며, 최종 산출물이 공유 폴더에 등록되어 도토리 1개가 성공적으로 반영되었습니다.
+          </p>
+          <div class="flex items-center gap-space-md pt-1">
+            <a href="#" class="inline-flex items-center gap-1 text-primary font-label-md text-label-md font-medium">관련 과업 바로가기 ↗</a>
+          </div>
+        `;
+        card.appendChild(detailDiv);
+        button.innerHTML = '<span>접기</span><span class="material-symbols-outlined text-[18px]">expand_less</span>';
+      }
+    });
+  });
+</script></main></div></body></html>
