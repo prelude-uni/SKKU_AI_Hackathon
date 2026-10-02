@@ -1,6 +1,6 @@
 // src/app/page.tsx
-import ProjectsPage from './projects/page';
+import WorkspaceLayout from '@/components/WorkspaceLayout';
 
 export default function Home() {
-  return <ProjectsPage />;
+  return <WorkspaceLayout />;
 }
