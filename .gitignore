@@ -14,8 +14,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
@@ -118,6 +118,7 @@ yarn-error.log*
 .pnpm-debug.log*
 .next/
 out/
+*.tsbuildinfo
 
 # Operating System & Editor Files
 .DS_Store
