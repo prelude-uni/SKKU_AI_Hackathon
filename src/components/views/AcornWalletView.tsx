@@ -347,7 +347,7 @@ export default function AcornWalletView({ onNavigate }: AcornWalletViewProps) {
           <div className="flex items-center gap-2">
             <span className="material-symbols-outlined text-[18px] text-primary">account_balance_wallet</span>
             <span>
-              도토리 누적 산출: 기본 배정(2) + 도움받음(3) − 도움제공(1) ={' '}
+              도토리 누적 산출: 기본 배정(5) + 도움받음(1) − 도움제공(1) ={' '}
               <strong className="text-on-surface font-bold">현재 {currentUser.acorns}개 보유</strong>
             </span>
           </div>
