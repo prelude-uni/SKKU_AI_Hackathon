@@ -43,6 +43,7 @@ interface AppContextType {
   addChatMessage: (taskId: string, message: string) => void;
   addMediationStatement: (mediationId: string, statement: string, availableHours: string) => void;
   addMediationChatMessage: (mediationId: string, message: string) => void;
+  addTasks: (newTasks: Task[]) => void;
   getTopAcornBackups: (projectId: string) => User[];
 }
 
@@ -442,6 +443,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       acceptMediationOption,
       addChatMessage,
       addMediationStatement,
+      addTasks: (newTasks: Task[]) => {
+        setTasks(prev => [...newTasks, ...prev]);
+      },
       addMediationChatMessage,
       getTopAcornBackups,
     }}>

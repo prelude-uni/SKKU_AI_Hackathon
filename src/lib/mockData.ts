@@ -8,7 +8,7 @@ export const mockUsers: User[] = [
     email: 'sungkyun@skku.edu',
     avatar: '🐿️',
     role: '팀장 / AI 모델링',
-    acorns: 2,
+    acorns: 5,
     isCurrentUser: true,
   },
   {
@@ -17,7 +17,7 @@ export const mockUsers: User[] = [
     email: 'jieun@skku.edu',
     avatar: '🦊',
     role: '데이터 엔지니어링',
-    acorns: 0,
+    acorns: 5,
   },
   {
     id: 'usr_alex',
@@ -25,7 +25,7 @@ export const mockUsers: User[] = [
     email: 'alex.j@exchange.skku.edu',
     avatar: '🦉',
     role: 'Frontend / UI/UX',
-    acorns: 1,
+    acorns: 5,
   },
   {
     id: 'usr_minsu',
@@ -33,7 +33,7 @@ export const mockUsers: User[] = [
     email: 'minsu.park@skku.edu',
     avatar: '🐻',
     role: 'Backend / Serving',
-    acorns: 0,
+    acorns: 5,
   },
 ];
 
